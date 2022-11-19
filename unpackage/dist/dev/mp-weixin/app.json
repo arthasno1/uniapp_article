@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/edit/edit",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "文章管理系统",
+    "navigationBarBackgroundColor": "#379243",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
