@@ -7,7 +7,7 @@ exports.main = async (event, context) => {
 		._id).update({
 		title: detail.title,
 		author: detail.author,
-		coutent: detail.coutent,
+		content: detail.content,
 		picurl: picurl
 	})
 	return collection

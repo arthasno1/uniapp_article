@@ -54,7 +54,7 @@
 							url: '/pages/index/index'
 						})
 					}, 1000)
-				})
+				}).catch(error => console.log(error))
 				this.formValue = {}
 			},
 			isdisabled(formValue) {

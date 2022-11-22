@@ -5,10 +5,10 @@
 				<input name="title" focus placeholder="请输入标题" v-model="formValue.title" />
 			</view>
 			<view class="item">
-				<input name="author" placeholder="请输入作者" v-model="formValue.content" />
+				<input name="author" placeholder="请输入作者" v-model="formValue.author" />
 			</view>
 			<view class="item">
-				<textarea name="content" placeholder="请输入详细内容" maxlength="-1" v-model="formValue.author" />
+				<textarea name="content" placeholder="请输入详细内容" maxlength="-1" v-model="formValue.content" />
 			</view>
 			<view class="item">
 				<uni-file-picker v-model="imageValue" fileMediatype="image" mode="grid" @success="uploaderSuccess"
